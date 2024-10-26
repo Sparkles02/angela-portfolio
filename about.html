@@ -31,64 +31,39 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/styles.css" />
-
+    <meta
+      name="description"
+      content="Angela is a developer based in South Africa"
+    />
     <title>About Angela Dube</title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="/" title="Homepage">Angela Dube 👩‍💻</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/"
-                  title="Homepage"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html" title="About Angela Dube"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/projects.html" title="Projects"
-                  >Projects</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/contact.html"
-                  title="Contact Angela Dube"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" class="navbar-brand" title="Homepage">Angela Dube 👩‍💻</a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Angela">About</a>
+          </li>
+          <li>
+            <a href="/projects.html" title="Angela's Projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Angela">Contact</a>
+          </li>
+        </ul>
       </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
             <h1 class="mb-4">Hello, I am Angela Dube</h1>
             <h2 class="mb-4">Front-end Developer based in South Africa</h2>
-            <p class="mb-4">
+            <p class="mb-5">
               Born and raised in South Africa, I soon found myself obsessed with
               all things Tech and immersed myself into coding, designing and
               analysing. After learning the basics from North West University,
@@ -96,14 +71,69 @@
               (Yes, I know Electrical Engineering too), I joined the SheCodes
               Foundation to learn skills in Front-End Development. My life story
               doesn't end there as I want to some day become an iOS Developer.
+              I'm currently seeking new opportunites and I am open to work remotely
+              and have flexxible hours.
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/projects.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/angelaWave.jpeg" class="img-pages" alt="" />
+          <img src="images/angelaWave.jpeg" class="img-pages" alt="Angela" />
         </div>
       </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry:</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Angela"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="mailto:angeladube874@gmail.com" class="email-link"
+            >angeladube874@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/siph.indile_dube"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://github.com/Sparkles02"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.x.com/dubesiphindile"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+           💻 This website was coded by Angela Dube, and is 
+          <a
+            href="https://github.com/Sparkles02/angela-portfolio"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
   </body>
 </html>
